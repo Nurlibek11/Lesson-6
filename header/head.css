@@ -1,0 +1,135 @@
+@import url(./nav/nav.css);
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+header .head-bottom {
+  width: 100%;
+  height: 300px;
+  padding: 60px 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEFEC9;
+  gap: 40px;
+}
+header .head-bottom p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #47474F;
+}
+header .head-bottom .btm-box {
+  padding: 13px 34px;
+  border: 1px solid;
+}
+header .head-top {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/top-h.jpg);
+  background-position: center;
+  background-size: cover;
+}
+header .head-top h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 45px;
+  line-height: 55px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+header .head-top .hr {
+  width: 80px;
+  height: 3px;
+  background-color: #FFFFFF;
+  margin-top: 28px;
+}
+header .head-top p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8117647059);
+  margin-top: 25px;
+}
+header .head-bgc {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  top: 484px;
+}
+header .head-bgc img {
+  width: 100%;
+  height: 100%;
+}
+header .head-foot {
+  width: 100%;
+  padding: 70px 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .head-foot h2 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+header .head-foot .hr2 {
+  width: 80px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.0901960784);
+  margin-top: 30px;
+}
+header .head-foot-content {
+  width: 960px;
+  height: 370px;
+  display: flex;
+}
+header .head-foot-content1 {
+  width: 320px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  margin-top: 43px;
+}
+header .head-foot-content1 h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  margin-top: 38px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+header .head-foot-content1 p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+header .content-img {
+  width: 300px;
+  height: 220px;
+}
+header .content-img img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=head.css.map */
