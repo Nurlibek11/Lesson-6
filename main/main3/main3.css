@@ -54,4 +54,116 @@
   color: #ABABAB;
   text-transform: uppercase;
   margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .main3 {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+  }
+  .main3-content {
+    max-width: 100%;
+    max-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main3-content .main3-img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+  .main3-content .main3-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .main3-content1 {
+    max-width: 90%;
+    max-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+  }
+  .main3-content1-2 {
+    max-width: 40%;
+    max-height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main3-content1-2 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #333333;
+  }
+  .main3-content1-2 h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ABABAB;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .main3 {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+  }
+  .main3-content {
+    max-width: 100%;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main3-content .main3-img {
+    max-width: 55px;
+    max-height: 55px;
+    margin-top: 20px;
+  }
+  .main3-content .main3-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .main3-content1 {
+    max-width: 90%;
+    max-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .main3-content1-2 {
+    max-width: 40%;
+    max-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main3-content1-2 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+  }
+  .main3-content1-2 h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #ABABAB;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=main3.css.map */

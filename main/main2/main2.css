@@ -72,4 +72,156 @@
   align-items: center;
   justify-content: center;
   gap: 14px;
+}
+
+@media (max-width: 480px) {
+  .main2 {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .main2-ourteam {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main2-ourteam h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .main2-ourteam .hr2 {
+    width: 30px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.0901960784);
+    margin-top: 30px;
+    margin-bottom: 22px;
+  }
+  .main2-ourteam1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .main2-ourteam1 .main2-ourteam1-1 {
+    width: 30%;
+    max-height: 230px;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main2-ourteam1 .main2-ourteam1-1 h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }
+  .main2-ourteam1 .main2-ourteam1-1 p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .ourteam-img {
+    max-width: 123px;
+    max-height: 123px;
+  }
+  .ourteam-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .ourteam1-content {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .main2 {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .main2-ourteam {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main2-ourteam h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .main2-ourteam .hr2 {
+    width: 30px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.0901960784);
+    margin-top: 30px;
+    margin-bottom: 22px;
+  }
+  .main2-ourteam1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .main2-ourteam1 .main2-ourteam1-1 {
+    width: 30%;
+    max-height: 240px;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main2-ourteam1 .main2-ourteam1-1 h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .main2-ourteam1 .main2-ourteam1-1 p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .ourteam-img {
+    max-width: 140px;
+    max-height: 140px;
+  }
+  .ourteam-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .ourteam1-content {
+    width: 100%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
 }/*# sourceMappingURL=main2.css.map */
